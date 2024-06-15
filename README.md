@@ -2,7 +2,6 @@
 simple telegram uploder bot with python and [python-telegram-bot](https://python-telegram-bot.org)
 
 ## python version
-
 ```
     Python 3.10.11
 ```
