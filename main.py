@@ -12,8 +12,10 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         print(update.message.id)
     
 async def upload(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    await update.message.reply_text(text=f"https://t.me/mehditestbot?start={update.message.chat.id}_{update.message.id}")
+    await update.message.reply_text(text=f"{URL}?start={update.message.chat.id}_{update.message.id}")
     
+# example : https://t.me/mychannelLink
+URL = ""
 
 TOKEN = ""
 
